@@ -1,0 +1,49 @@
+/**
+named colors: https://htmlcolorcodes.com/color-names/
+*/
+.main-content {
+  width: 960px;
+  margin: 25px auto;
+}
+.block {
+  display: block;
+  width: 150px;
+  height: 100px;
+}
+.block--with-animation {
+  transition: all 0.5s ease-out;
+}
+.block--rounded {
+  border: 1px solid lightgray;
+  border-radius: 8px;
+}
+.block--center {
+  margin-left: auto;
+  margin-right: auto;
+}
+.block--rotate90 {
+  transform: rotate(90deg);
+}
+
+.owl-carousel {
+  margin: 2rem 0;
+}
+.owl-carousel__item {
+  height: 10rem;
+  background: #4DC7A0;
+  padding: 1rem;
+}
+
+.owl-carousel__item-content-wrap {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	align-content: center;
+	justify-content: center;
+}
+.owl-carousel__item-content {
+	color: #FFF;
+	font-weight: 400;
+	font-size: 72pt;
+}
